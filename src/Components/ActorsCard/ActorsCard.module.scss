@@ -1,0 +1,38 @@
+.actorStyle {
+    border: 2px solid yellow;
+    background-color: var(--white);
+    display: flex;
+    width: 100%;
+    max-width: 1143px;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    article {
+        display: flex;
+
+        font-family: var(--titilliumweb);
+
+        div {
+
+            h3 {
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 27px;
+                color: var(--dimgray);
+            }
+
+            p {
+                font-size: 26px;
+                font-family: 400;
+                line-height: 27px;
+                color: var(--earthyellow);
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,11 @@
+.frontStyle {
+  width: 100%;
+  padding-top: 57px;
+  padding-bottom: 65px;
+}
+
+@media screen and (max-width: 1200px) {
+  .frontStyle {
+    padding: 57px 20px 65px;
+  }
+}

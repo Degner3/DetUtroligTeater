@@ -1,0 +1,107 @@
+.footerStyle {
+    background-color: var(--charcoal);
+    width: 100%;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    .contactInfoWrapper {
+        width: 100%;
+        max-width: 712px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 15px;
+
+        .ticketAdministration {
+            display: flex;
+            flex-direction: column;
+            gap: 63px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+
+            li {
+                list-style-type: none;
+
+                h3 {
+                    font-size: 24px;
+                    font-family: var(--titilliumweb);
+                    font-weight: 700;
+                    line-height: 36px;
+                    color: var(--white);
+                }
+
+                p {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-family: var(--titilliumweb);
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--white);
+                }
+
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-family: var(--titilliumweb);
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--white);
+                }
+            }
+
+            .cvr {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+
+    .socials {
+        display: flex;
+
+        .socialLogo {
+            height: 39px;
+            width: 39px;
+            color: var(--white);
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+
+    .footerStyle{
+
+        .contactInfoWrapper {
+
+            .ticketAdministration {
+                display: flex;
+                gap: 15px;
+            }
+    
+        }
+
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footerStyle{
+
+        .socials {
+            flex-direction: column;
+        }
+
+    }
+
+
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+// Variables
+:root {
+
+    // Colors
+    --earthyellow: #D39D5B;
+    --chamoisee: #AD7A51;
+    --charcoal: #30454C;
+    --white: #FFFFFF;
+    --black: #000000;
+    --battleship: #999999;
+    --dimgray: #707070;
+    --engineeringorange: #B10C0C;
+    --lightgreen: #61E692;
+    --indiagreen: #048904;
+
+    // Fonts
+    --playfairdisplay: "Playfair Display", serif;
+    --titilliumweb: "Titillium Web", sans-serif;
+
+    // font-family: "Titillium Web", sans-serif;
+    // font-family: "Playfair Display", serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
