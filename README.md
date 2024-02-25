@@ -7,3 +7,12 @@ Naviger til rodmappen
 ```
 Npm install
 ```
+4. Derefter skriv herefter
+```
+cd Teater
+```
+5. Derefter skriv det her for start den op
+```
+npm run dev
+```
+nu skulle den køre på en localhost 😊
